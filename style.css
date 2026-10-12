@@ -17,7 +17,66 @@ a {
 }
 
 .Header{
+  height: 70px;
+  padding-bottom: 20px;
+}
+
+.Header, .Middle{
   background-color: #1F2937;
   font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
+.Header .Left{
+  margin-left: -12px;
+}
+.Header .Right{
+  margin-right: -12px;
+}
+
+
+
+.big{
+  font-weight: bold;
+  color: white;
+}
+.Middle .big{
+    font-size: 36px;
+}
+.Left{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Right{
+    gap: 16px;
+    display: flex;
+}
+.talk{
+  color: white;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.But{
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #3882F6;
+  color: white;
+  padding: 10px 26px;
+  font-size: 16px;
+  font-weight: #1F2937;
+  font-weight: 900;
+  border-radius: 8px;
+  border: none;
+}
+
+.Left{
+  width: 500px;
+  margin: 0;
+}
+.Image{
+  height: 250px;
 }
