@@ -80,3 +80,10 @@ a {
 .Image{
   height: 250px;
 }
+
+.Info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+}
