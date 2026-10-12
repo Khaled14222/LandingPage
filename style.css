@@ -95,7 +95,20 @@ a {
   font-weight: bold;
   font-size: 32px;
 }
-.BoxContainer{
+.contentContainer{
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+}
+.InfoImg{
+  border: #3882F6 1px solid;
+  height: 150px;
+  width: 150px;
+}
+.contentContainer p{
+  width: 150px; 
+  flex-wrap: wrap;
+  text-align: center;
+
 }
