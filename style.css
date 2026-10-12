@@ -31,10 +31,11 @@ a {
   height: 500px;
 }
 .Header .Left{
-  margin-left: -12px;
+  margin-left: -40px;
 }
 .Header .Right{
-  margin-right: -12px;
+  margin-right: -40px;
+  font-size: 18px;
 }
 
 
@@ -165,4 +166,14 @@ a {
 
 .small{
   font-size: 18px;
+}
+
+.Footer{
+  height: 100px;
+  background-color: #1F2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
 }
