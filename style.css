@@ -28,7 +28,9 @@ a {
   align-items: center;
   justify-content: space-around;
 }
-
+.Middle{
+  height: 500px;
+}
 .Header .Left{
   margin-left: -12px;
 }
@@ -55,7 +57,7 @@ a {
     display: flex;
 }
 .talk{
-  color: white;
+  color: #E5E7EB;
   line-height: 1.6;
   font-size: 14px;
 }
@@ -71,6 +73,7 @@ a {
   font-weight: 900;
   border-radius: 8px;
   border: none;
+  font-weight: lighter;
 }
 
 .Left{
@@ -83,7 +86,16 @@ a {
 
 .Info{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 450px;
+}
+.InfoText{
+  font-weight: bold;
+  font-size: 32px;
+}
+.BoxContainer{
+  display: flex;
+  flex-direction: row;
 }
